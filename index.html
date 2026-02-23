@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethan Renaldi — Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">ER</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Engineering Portfolio</p>
+      <h1 class="hero-name">Ethan Renaldi</h1>
+      <p class="hero-subtitle">Mechanical Design &amp; High-Power Rocketry</p>
+      <p class="hero-desc">
+        Designing precision components for high-performance aerospace applications —
+        from structural airframe hardware to custom avionics bays and fabrication tooling.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="https://github.com/erenaldi/portfolio" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Building things that fly.</h2>
+          <p>
+            I'm an engineering student with a passion for aerospace systems and precision mechanical design.
+            My work focuses on high-power rocketry — designing, modeling, and fabricating the components
+            that make rockets fly reliably and safely.
+          </p>
+          <p>
+            Every part in this portfolio was designed with real constraints in mind: weight, structural
+            integrity, manufacturability, and integration with avionics and recovery systems.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">5</span>
+            <span class="stat-label">CAD Models</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">54mm</span>
+            <span class="stat-label">HPR Airframe</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">HPR</span>
+            <span class="stat-label">High-Power Rocketry</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">.STEP</span>
+            <span class="stat-label">Files Available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title">CAD Design Work</h2>
+      <p class="section-sub">All models were designed for real-world high-power rocketry applications. STEP files are available in the repository.</p>
+
+      <div class="projects-grid">
+
+        <!-- Electronics Bay (featured) -->
+        <div class="project-card featured">
+          <div class="project-img-wrap">
+            <img src="54mm-Rocket-Electronics-Bay-1.png" alt="54mm Rocket Electronics Bay" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Avionics</span>
+            <h3>54mm Rocket Electronics Bay</h3>
+            <p>
+              A fully assembled electronics bay for a 54mm high-power rocket. The sled mounts between two
+              circular bulkheads on threaded standoffs and houses a flight computer and altimeter for
+              deployment charge triggering and flight data logging. Features a barometric vent port and
+              cutout for wiring access.
+            </p>
+            <div class="project-files">
+              <span class="file-chip">54mm-Rocket-Electronics-Bay-1.png</span>
+              <span class="file-chip">54mm-Rocket-Electronics-Bay-Assembly-1.step</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coupler -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="54mm-HPR-Coupler-1.png" alt="54mm HPR Coupler" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Structural</span>
+            <h3>54mm HPR Coupler</h3>
+            <p>
+              A two-stage coupler for 54mm HPR airframes. A straight upper cylinder inserts into one body
+              tube while the conical lower collar seats against the other, providing structural continuity
+              across the airframe joint. Features alignment screw holes.
+            </p>
+            <div class="project-files">
+              <span class="file-chip">54mm-HPR-Coupler-1.step</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fins -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="54mm-HPR-Fins-1.png" alt="54mm HPR Fins" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Aerodynamics</span>
+            <h3>54mm HPR Swept Fin</h3>
+            <p>
+              A swept fin for a 54mm high-power rocket with a triangular planform and beveled leading edge
+              for reduced drag. The rectangular root tab slots into the airframe for secure, repeatable
+              attachment — typical of fiberglass construction.
+            </p>
+            <div class="project-files">
+              <span class="file-chip">54mm-HPR-Fins-1.step</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jiobit Holder -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="BT-60-Coupler-Jiobit-Holder-1.png" alt="BT-60 Jiobit Holder" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">GPS / Tracking</span>
+            <h3>BT-60 Jiobit GPS Holder</h3>
+            <p>
+              A BT-60 coupler with an integrated internal cradle designed to securely seat a Jiobit GPS
+              tracker inside the rocket airframe. Enables real-time location tracking during and after
+              flight for reliable rocket recovery.
+            </p>
+            <div class="project-files">
+              <span class="file-chip">BT-60-Coupler-Jiobit-Holder-1.step</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fin Cutting Jig -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="BT-60-Tube-4X-Fin-Cutting-Jig-1.png" alt="BT-60 Fin Cutting Jig" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Fabrication Tooling</span>
+            <h3>BT-60 4x Fin Cutting Jig</h3>
+            <p>
+              A fabrication jig that slides over a BT-60 body tube to guide precise fin slot cuts at
+              exactly 90° intervals. Four evenly spaced vertical slots ensure consistent fin alignment
+              during airframe assembly, eliminating measurement error.
+            </p>
+            <div class="project-files">
+              <span class="file-chip">BT-60-Tube-4X-Fin-Cutting-Jig-1.step</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">Skills &amp; Tools</div>
+      <h2 class="section-title">Technical Competencies</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>CAD / Design</h4>
+          <div class="skill-tags">
+            <span>3D CAD Modeling</span>
+            <span>STEP Export</span>
+            <span>Assembly Design</span>
+            <span>Part Tolerancing</span>
+            <span>Geometric Constraints</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Aerospace / Rocketry</h4>
+          <div class="skill-tags">
+            <span>High-Power Rocketry (HPR)</span>
+            <span>Airframe Design</span>
+            <span>Avionics Integration</span>
+            <span>Recovery Systems</span>
+            <span>Fin Aerodynamics</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Fabrication</h4>
+          <div class="skill-tags">
+            <span>Fabrication Tooling</span>
+            <span>Jig &amp; Fixture Design</span>
+            <span>3D Printing</span>
+            <span>Composite Construction</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Engineering Tools</h4>
+          <div class="skill-tags">
+            <span>Git / GitHub</span>
+            <span>GitHub Pages</span>
+            <span>Technical Documentation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="section-label">Contact</div>
+        <h2>Let's work together.</h2>
+        <p>I'm currently seeking engineering internship opportunities. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:erenaldi09@gmail.com" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            erenaldi09@gmail.com
+          </a>
+          <a href="https://github.com/erenaldi" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            github.com/erenaldi
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>Ethan Renaldi &mdash; Engineering Portfolio &mdash; <a href="https://github.com/erenaldi/portfolio" target="_blank" rel="noopener">github.com/erenaldi/portfolio</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar solid on scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.project-card, .stat, .skill-group, .about-text, .about-stats').forEach(el => {
+      el.classList.add('fade-in');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
